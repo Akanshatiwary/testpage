@@ -134,7 +134,9 @@ body {
   background-color: black;
   font-family: 'Gotham', sans-serif;
 }
-
+.mainblock{
+    background-image:url("../landingtest/image/ima.jpg");
+}
 header {
   margin: 20px 0;
 }
@@ -145,7 +147,7 @@ header .container {
 
 .hamburger-menu {
   position: absolute;
-  right: 0;
+  right: 15px;
   display: none;
 }
 
@@ -293,7 +295,7 @@ input {
     margin: 0;
     font-size: 20px;
     font-weight: 600;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
   }
   .login {
     border: none;
@@ -313,6 +315,20 @@ input {
   }
   .quotecontent {
     padding: 30px 0;
+    text-align: center;
+  }
+  .form-control{
+      padding:20px;
+  }
+  ::placeholder{
+      font-size:20px;
+  }
+  .btn{
+      padding:20px;
+      font-size:20px;
+  }
+  h3{
+      font-size:34px;
   }
 }
 @media only screen and (max-width: 700px) {
