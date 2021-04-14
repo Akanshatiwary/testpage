@@ -174,7 +174,7 @@ input{
 .containerd{
     display:none;
 }
-@media only screen and (max-width:1024px) {
+@media only screen and (max-width:900px) {
 #menulink li{
     display:block;
     margin:0;
@@ -184,6 +184,7 @@ input{
 }
 .login{
     border:none;
+    padding: 0;
 }
 #menulink{
     background-color: red;
@@ -191,11 +192,23 @@ input{
     right: 0;
     top: 65px;
     width: 100%;
-    text-align: center;
+    text-align: left;
     padding: 20px;
 
 }
 .containerd{
     display:block;
 }
+.quotecontent{
+    padding: 30px 0;
+}
+}
+@media only screen and (max-width:700px) {
+    h2{
+        font-size:30px;
+    }
+    span{
+        line-height: 1.5;
+        font-size:18px;
+    }
 }
