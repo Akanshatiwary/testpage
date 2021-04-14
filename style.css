@@ -48,17 +48,17 @@ a{
 }
 /* header */
 body{
-    background-image:url("../landingtest/image/banner.png");
+    background-image:url("../landingtest/image/twitter.jpg");
     font-family: "Gotham";
 }
 header{
     margin:20px 0;
 }
 .mainblock{
-    background-color: blue;
+    background-image:url("../landingtest/image/ima.jpg");
     margin: 30px;
-    padding: 20px 0;
-    opacity:0.5;
+    padding: 20px 30px;
+    /* opacity:0.5; */
 }
 /* .logo{
     float:left;
@@ -187,32 +187,53 @@ input{
     margin:0;
     font-size: 20px;
     font-weight: 600;
-    margin-bottom: 10px;
+    margin-bottom: 30px;
 }
 .login{
     border:none;
     padding: 0;
 }
 #menulink{
-    background-color: red;
+    display:none;
+    background-color: darkorchid;
     position: absolute;
     right: 0;
     top: 65px;
     width: 100%;
     text-align: left;
-    padding: 20px;
+    padding: 40px 30px 0 30px;
 
 }
 .containerd{
     display:block;
 }
 .quotecontent{
-    padding:30px 0;
+    padding:50px 0;
+    text-align: center;
+}
+h2{
+    font-size:50px;
+}
+.cart{
+    padding:30px 40px;
+}
+.form-control{
+    padding:20px;
+}
+::placeholder{
+    font-size:20px;
+}
+.btn{
+    font-size:20px;
+    padding:20px;
+}
+h3{
+    font-size:30px;
 }
 }
 @media only screen and (max-width:700px) {
     h2{
-        font-size:30px;
+        font-size:40px;
     }
     span{
         line-height: 1.5;
