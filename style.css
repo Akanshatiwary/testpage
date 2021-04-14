@@ -1,0 +1,201 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul, li {
+  display:inline-block;
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+a{
+    color:white;
+    text-decoration:none;
+}
+/* header */
+body{
+    background-color: black;
+    font-family: "Gotham";
+}
+header{
+    margin:20px 0;
+}
+/* .logo{
+    float:left;
+}
+nav{
+    float:right;
+} */
+h1{
+    font-family:"Gotham";
+    font-size:20px;
+    color:white;
+    text-transform:uppercase;
+}
+li{
+    margin:0 0 0 20px;
+    font-family:"Gotham";
+    font-size:14px;
+    color:white;
+    text-transform:uppercase;
+}
+li:nth-of-type(1){
+    margin: 0;
+}
+.fa{
+    margin:0 10px 0 0;
+}
+.login{
+    border:1px solid white;
+    padding:10px;
+}
+header .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+h2{
+    font-family:"Gotham";
+    font-size:60px;
+    color:white;
+    line-height:1.2;
+    font-weight:600;
+}
+span{
+    color: white;
+    font-size:22px;
+    text-transform: capitalize;
+    font-weight: 500;
+    line-height:2.5;
+}
+h3{
+    color: white;
+    font-size: 22px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.btn{
+    width: 100%;
+    background-color: #dc5c4f;
+    color: white;
+    font-size:14px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.cart{
+    padding: 20px;
+    background-color:#f5f5f5;
+}
+.form-group{
+    margin-bottom: 10px;
+}
+.quote-title{
+    padding:20px 0;
+    background-color:#153439;
+    text-align: center;
+}
+.cartblock{
+    border-radius: 10px;
+}
+.quote{
+    margin:5% 0;
+}
+input{
+    outline:none;
+    border:1px solid black;
+}
+::placeholder{
+    font-size:12px;
+    color: #2C323D;
+    font-weight:600;
+}
+.form-control:focus{
+    box-shadow:none;
+    /* border:none; */
+    outline:none;
+}
+.quotecontent{
+    padding:150px 0 0 0;
+}
+.bar1, .bar3 {
+    width: 35px;
+    height: 2px;
+    background-color:white;
+    margin: 6px 0;
+    transition: 0.4s;
+}  
+.invis {
+    width: 35px;
+    height: 2px;
+    margin: 6px 0;
+}
+.change .bar1 {
+    -webkit-transform: rotate(-45deg) translate(-5px, 6px);
+    transform: rotate(-45deg) translate(-5px, 6px);
+} 
+.change .bar3 {
+    -webkit-transform: rotate(45deg) translate(-5px, -6px);
+    transform: rotate(45deg) translate(-5px, -6px);
+}
+.containerd{
+    display:none;
+}
+@media only screen and (max-width:1024px) {
+#menulink li{
+    display:block;
+    margin:0;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.login{
+    border:none;
+}
+#menulink{
+    background-color: red;
+    position: absolute;
+    right: 0;
+    top: 65px;
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+
+}
+.containerd{
+    display:block;
+}
+}
