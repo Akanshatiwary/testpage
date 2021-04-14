@@ -310,7 +310,7 @@ input {
     top: 65px;
     width: 100%;
     text-align: left;
-    padding: 20px;
+    padding: 20px 30px 0 30px;
   }
   .containerd {
     display: block;
