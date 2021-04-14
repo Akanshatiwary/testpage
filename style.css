@@ -54,6 +54,12 @@ body{
 header{
     margin:20px 0;
 }
+.mainblock{
+    background-color: blue;
+    margin: 30px;
+    padding: 20px 0;
+    opacity:0.5;
+}
 /* .logo{
     float:left;
 }
@@ -84,6 +90,7 @@ li:nth-of-type(1){
     padding:10px;
 }
 header .container{
+    position: relative;
     display: flex;
     justify-content: space-between;
     align-items: center;
